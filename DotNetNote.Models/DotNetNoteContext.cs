@@ -4,6 +4,7 @@
 //Install-Package System.Configuration.ConfigurationManager
 //Install-Package Microsoft.Data.SqlClient
 
+using DotNetNote.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 
@@ -39,5 +40,6 @@ namespace DotNetNote.Models
         /// 게시판
         /// </summary>
         public DbSet<Note> Notes { get; set; }
+        public DbSet<Inquiry> Inquiries { get; set; }
     }
 }

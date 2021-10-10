@@ -33,6 +33,10 @@ builder.Services.AddTransient<INoteCommentRepository, NoteCommentRepository>();
 
 builder.Services.AddDbContext<DotNetNoteContext>(options => options.UseSqlServer(connectionString));
 
+// Inquiries 모듈 
+builder.Services.AddTransient<IInquiryRepository, InquiryRepository>();
+builder.Services.AddTransient<IInquiryCommentRepository, InquiryCommentRepository>();
+
 
 var app = builder.Build();
 

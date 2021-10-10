@@ -57,6 +57,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Notes" />
+    <Folder Include="Inquiries" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Notes\00_01_Notes.sql" />
@@ -72,5 +73,17 @@
     <Build Include="Notes\DNN_WriteNote.sql" />
     <Build Include="Notes\NotesList.sql" />
     <Build Include="Notes\NotesSearchList.sql" />
+    <Build Include="Inquiries\00_01_Inquiries.sql" />
+    <Build Include="Inquiries\00_02_InquiryComments.sql" />
+    <Build Include="Inquiries\DeleteInquiry.sql" />
+    <Build Include="Inquiries\GetCountInquiries.sql" />
+    <Build Include="Inquiries\ListInquiries.sql" />
+    <Build Include="Inquiries\ModifyInquiry.sql" />
+    <Build Include="Inquiries\ReplyInquiry.sql" />
+    <Build Include="Inquiries\SearchInquiryCount.sql" />
+    <Build Include="Inquiries\SearchInquiries.sql" />
+    <Build Include="Inquiries\ViewInquiry.sql" />
+    <Build Include="Inquiries\WriteInquiry.sql" />
+    <Build Include="Inquiries\InquiriesSearchList.sql" />
   </ItemGroup>
 </Project>

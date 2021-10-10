@@ -34,4 +34,8 @@
     <ProjectReference Include="..\DotNetNote.Models\DotNetNote.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\files\" />
+  </ItemGroup>
+
 </Project>
